@@ -1,4 +1,5 @@
-baseURL: http://example.org/
+# baseURL: http://example.org/
+baseURL: https://moonlit-brigadeiros-6f6843.netlify.app/
 languageCode: en-us
 title: Yogesh Singh Nayal
 # baseURL: "https://hugo-profile.netlify.app"
@@ -15,19 +16,19 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
     
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
 
     # Dropdown menu
     # - identifier: dropdown
@@ -107,18 +108,21 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1AiNhoCut3K6ZBNuTHBcIdTR2ygf0PiQa/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           # url: https://example.com
           url: https://github.com/ysnayal17
-        - icon: fab fa-twitter
-          url: https://example.com
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/yogesh-singh-nayal-150326178/
+        # - icon: fab fa-twitter
+        #   url: https://twitter.com/YogeshSinghNay5
       customIcons:
         # - icon: /fav.png
         - icon: /fav2.jpg
-          url: "https://example.com"
+          # url: "https://example.com"
+          url: "#"
 
   # About
   about:
@@ -153,6 +157,8 @@ params:
           url: "https://drive.google.com/file/d/1mh79ZMShv0eXROq6hLfYpHjokLZd8WJR/view?usp=sharing"
         - title: "Data Science"
           url: "https://drive.google.com/file/d/1NdCi61e9Dvk_1rEnQ5XvHQiD89A4-bQu/view?usp=sharing"
+        - title: "DEV-OPS"
+          url: "https://drive.google.com/file/d/1AhNIQZhr4zzN9neGjlumyqQsyvnCTFTC/view?usp=sharing"
         - title: "Blockchain"
           url: "#"
         - title: "Git/Github"
@@ -176,10 +182,11 @@ params:
         company: "Sparks Foundation"
         companyUrl: "https://www.thesparksfoundationsingapore.org"
         date: "Jul 2022 - present"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
+        featuredLink:
+          enable: true
+          # name: "View the project"
+          name: "Certificate"
+          url: "https://drive.google.com/file/d/1ylq4XGfp4bNuqtRWNpgmGHAEM9oVi8rF/view?usp=sharing"
         content: "I am currently working as a web developer intern at [Sparks Foundation](https://www.thesparksfoundationsingapore.org). Here my project will be based on React Frontend Framework."
 
       - job: "Machine Learning Intern"
@@ -188,8 +195,8 @@ params:
         date: "28th Aug 2021 - 28th Oct 2021"
         featuredLink:
           enable: true
-          name: "Certificate"
-          url: "https://example.com"
+          name: "Certificate/LOR"
+          url: "https://drive.google.com/file/d/10nUvYfYW0Mu0nyezXVsgfY_HKqwz7Vsn/view?usp=sharing"
         info:
           enable: true
           content: I worked as a machine learning intern for around 2 months in GRROOM.
@@ -245,11 +252,11 @@ params:
         #   Extracurricular Activities
         #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "12th Std"
+      - title: "12th- PCM + Computer Science (CBSE)"
         school:
           name: "Kendriya Vidyalaya No.2, Colaba"
           url: "https://no2colaba.kvs.ac.in/"
-        date: "2019"
+        date: "2018-2019"
         GPA: "91.4% out of 100"
         # content: |-
         #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
@@ -263,11 +270,11 @@ params:
         #   enable: true
         #   name: "My academic record"
         #   url: "https://example.com"
-      - title: "10th Std"
+      - title: "10th- Science (CBSE)"
         school:
           name: "Kendriya Vidyalaya No.2, Colaba"
           url: "https://no2colaba.kvs.ac.in/"
-        date: "2017"
+        date: "2016-2017"
         GPA: "10 out of 10"
         # featuredLink:
         #   enable: true
@@ -283,16 +290,18 @@ params:
       - title: Codexpress 5.0 
         content: I acquired 2nd place in my college in this coding competition.
         url: https://drive.google.com/file/d/1USOr_G9nnX3bvHDS00MpOFwG9ZCgazqm/view?usp=sharing
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: DEV-OPS Course
+        content: Obtained A Grade in 30hrs value added course on DEV-OPS.
+        url: https://drive.google.com/file/d/1AhNIQZhr4zzN9neGjlumyqQsyvnCTFTC/view?usp=sharing
+      - title: Hacktober Fest 2020
+        content: Successfully contributed to open source projects worldwide.
+        url: https://www.linkedin.com/posts/yogesh-singh-nayal-150326178_hacktoberfest2020-hacktoberfest-digitalocean-activity-6751776761928855552-LIim?utm_source=linkedin_share&utm_medium=member_desktop_web
+      - title: JEE MAINS 
+        content: Secured 95.14 percentile in JEE Mains April 2019 session.
+        url: "https://drive.google.com/file/d/12VGKwFVWWsMosyXj3O_xZxp8l9AzFy2y/view?usp=sharing"
+      - title: Cricket 
+        content: Represented Mumbai region in cricket U-17 held in Chennai
+        url: "https://drive.google.com/file/d/1ANmpgnmbl_1oLR-PJmbWN93WMZwhiYWE/view?usp=sharing"
 
   # projects
   projects:
@@ -347,15 +356,14 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    # email: gurusabarisha@gmail.com
     email: ysnayal17@gmail.com
     btnName: Mail me
 
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/ysnayal17
+      linkedin: https://www.linkedin.com/in/yogesh-singh-nayal-150326178/
+      twitter: https://twitter.com/YogeshSinghNay5
+      instagram: https://www.instagram.com/ysnayal_17/
+      facebook: https://www.facebook.com/yogesh.singhnayal.7
