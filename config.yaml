@@ -137,15 +137,36 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML/CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Python"
-        - "Django"
-        - "Machine Learning"
-        - "Deep Learning"
-        - "Blockchain"
+        - title: "HTML/CSS"
+          url: "https://drive.google.com/file/d/1od2ypXgiI6dPSCBA4kPKtRymnpVWBu4e/view?usp=sharing"
+        - title: "JavaScript"
+          url: "https://drive.google.com/file/d/1QNoPAFRqCyBNth18xybRD1lWxi3ly-Nv/view?usp=sharing"
+        - title: "React"
+          url: "#"
+        - title: "Node"
+          url: "#"
+        - title: "Python"
+          url: "https://drive.google.com/file/d/1lTXZi02qHkd8Qm8Lxz1iFBYcpgKxCbRO/view?usp=sharing"
+        - title: "Django"
+          url: "#"
+        - title: "Machine Learning"
+          url: "https://drive.google.com/file/d/1mh79ZMShv0eXROq6hLfYpHjokLZd8WJR/view?usp=sharing"
+        - title: "Data Science"
+          url: "https://drive.google.com/file/d/1NdCi61e9Dvk_1rEnQ5XvHQiD89A4-bQu/view?usp=sharing"
+        - title: "Blockchain"
+          url: "#"
+        - title: "Git/Github"
+          url: "https://drive.google.com/file/d/1BFGQ9o7YjNmZVUcy65n9UbfCnsjmnoiL/view?usp=sharing"
+        - title: "Ethical Hacking"
+          url: "https://drive.google.com/file/d/1I32tYXpRFjUR854sx6Vc2rpbez4cV4HU/view?usp=sharing"
+        # - "JavaScript"
+        # - "React"
+        # - "Node"
+        # - "Python"
+        # - "Django"
+        # - "Machine Learning"
+        # - "Deep Learning"
+        # - "Blockchain"
 
   # Experience
   experience:
@@ -256,9 +277,12 @@ params:
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
+      # - title: Google kickstart runner
+      #   content: I solved all problems with optimal solution.
+      #   url: https://example.com
+      - title: Codexpress 5.0 
+        content: I acquired 2nd place in my college in this coding competition.
+        url: https://drive.google.com/file/d/1USOr_G9nnX3bvHDS00MpOFwG9ZCgazqm/view?usp=sharing
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
       - title: Hugo Profile
