@@ -1,5 +1,5 @@
 # baseURL: http://example.org/
-baseURL: https://moonlit-brigadeiros-6f6843.netlify.app/
+baseURL: https://yogesh-singh-nayal.netlify.app
 languageCode: en-us
 title: Yogesh Singh Nayal
 # baseURL: "https://hugo-profile.netlify.app"
@@ -104,7 +104,7 @@ params:
     title: "Yogesh."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/Yogesh3.jpg
+    image: /images/Yogesh3-compressed.jpg
     button:
       enable: true
       name: "Resume"
