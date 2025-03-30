@@ -1,5 +1,5 @@
 # baseURL: http://example.org/
-baseURL: https://yogesh-singh-nayal.netlify.app
+baseURL: https://ysnayal17.netlify.app
 languageCode: en-us
 title: Yogesh Singh Nayal
 # baseURL: "https://hugo-profile.netlify.app"
@@ -113,9 +113,9 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           # url: https://example.com
-          url: https://github.com/ysnayal17
+          url: https://github.com/ysnayal17/
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/yogesh-singh-nayal-150326178/
+          url: https://www.linkedin.com/in/ysnayal17/
         # - icon: fab fa-twitter
         #   url: https://twitter.com/YogeshSinghNay5
       customIcons:
@@ -362,8 +362,8 @@ params:
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com/ysnayal17
-      linkedin: https://www.linkedin.com/in/yogesh-singh-nayal-150326178/
-      twitter: https://twitter.com/YogeshSinghNay5
+      github: https://github.com/ysnayal17/
+      linkedin: https://www.linkedin.com/in/ysnayal17/
+      twitter: https://twitter.com/YogeshSinghNay5/
       instagram: https://www.instagram.com/ysnayal_17/
       facebook: https://www.facebook.com/yogesh.singhnayal.7
